@@ -72,9 +72,9 @@ h2{ font-size: 2rem; margin-bottom: 8px; }
 
 .card{
   background: #ebebeb;
-  padding: 22px;
+  padding: 24px;
   border-radius: 16px;
-  box-shadow: 0 10px 28px rgba(0,0,0,0.06);
+  box-shadow: 0 12px 30px rgba(0,0,0,0.06);
 }
 
 .card h3{ margin-bottom: 13px; }
