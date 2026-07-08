@@ -1,10 +1,12 @@
+/* General UI stuff */
+
 * { box-sizing: border-box; margin: 0; padding: 0; }
 
 body{
   font-family: 'Inter', sans-serif;
   line-height: 1.6;
   color: #111;
-  background: #768dff;
+  background: #46b3ff;
 }
 
 .container{
@@ -129,4 +131,36 @@ footer{
 .player{
     aspect-ratio: 16 / 9;
     width: 200%;
+}
+
+/* Nav Bar */
+
+.navbar {
+  width: 100%;
+  background-color: #555;
+  overflow: auto;
+}
+/* Navbar links */
+.navbar a {
+  float: left;
+  text-align: center;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+}
+/* Navbar links on mouse-over */
+.navbar a:hover {
+  background-color: #000;
+}
+/* Current/active navbar link */
+.active {
+  background-color: #04AA6D;
+}
+/* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
 }
