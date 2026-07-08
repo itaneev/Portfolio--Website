@@ -4,7 +4,7 @@ body{
   font-family: 'Inter', sans-serif;
   line-height: 1.6;
   color: #111;
-  background: #9af0fd;
+  background: #768dff;
 }
 
 .container{
@@ -72,7 +72,7 @@ h2{ font-size: 2rem; margin-bottom: 8px; }
 
 .card{
   background: #ebebeb;
-  padding: 24px;
+  padding: 30px;
   border-radius: 16px;
   box-shadow: 0 12px 30px rgba(0,0,0,0.06);
 }
