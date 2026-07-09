@@ -14,10 +14,10 @@
 <body>
 
 <div class="navbar">
-    <a class="active" href="#"><i class="fa fa-fw fa-home"></i> Home</a>
-    <a href="#"><i class="fa fa-fw fa-search"></i> Search</a>
-    <a href="#"><i class="fa fa-fw fa-envelope"></i> Contact</a>
-    <a href="#"><i class="fa fa-fw fa-user"></i> Login</a>
+    <a class="active" rel="Main" href="Main.html"><i class="fa fa-spin fa-home"></i> Home</a>
+    <a class="" rel="About-Me" href="About-Me.html"><i class="fa fa-spin fa-user"></i> About Me</a>
+    <a class="" rel="Projects" href="Projects.html"><i class="fa fa-spin fa-cog"></i> Projects</a>
+    <a class="" rel="Contact" href="Contact.html"><i class="fa fa-spin fa-envelope"></i> Contact</a>
 </div>
 
 <header class="container hero">
@@ -28,35 +28,17 @@
   </div>
 
   <p class="lead">
-    Gameplay and Systems Designer focused on progression, player feedback, and moment-to-moment experience. 
+    Game Designer and Programmer focused on fun bringing fun mechanics and experiences.
   </p>
-
-  <div class="cta">
-    <a href="#featured" class="btn">See Work</a>
-    <a href="#contact" class="btn btn-outline">Contact me</a>
-    <!--<a target="_blank" href="https://staffsuniversity-my.sharepoint.com/:w:/g/personal/t015402o_student_staffs_ac_uk/IQB_o44CsSuOTZWDK9_2AsQLAS7bIAw9wDabjKe43bS21iU?e=X7G1cU"
-        class="btn btn-outline">My CV</a> -->
-  </div>
 </header>
 
-<section id="about" class="container">
-  <div class="section-head">
-    <h2>About Me</h2>
-  </div>
-  <p>
-      I am a second year Games Design student at the University of Staffordshire, specializing in gameplay and 
-      systems design. With a strong focus on iteration and player experience.
-      <br> I have developed my projects independently using structured production workflows,
-      including prototyping, and playtest driven iteration. This allows me to approach problems critically and refine systems based on player feedback.
-      <br> I am currently looking for opportunities to work within a team environment where I can contribute my skills to gameplay systems, prototype mechanics,
-      and continue developing my design thinking professionally.
-  </p>
-</section>
+<hr class="solid">
 
 <section id="featured" class="container">
   <div class="section-head">
-    <h2>Projects</h2>
+    <h2> Featured Projects</h2>
     <p class="section-subtitle">Projects that showcase my skills and design.</p>
+          <a class="section-subtitle" rel="Projects" href="Projects.html"><i class="fa fa-spin fa-cog"></i> More Projects</a>
   </div>
 
   <div class="grid">
@@ -64,7 +46,7 @@
           <h3> Unreal Engine – Deadplate</h3>
           <p class="meta">Role: Game Designer (Group project) · Platform: PC</p>
 
-          <iframe class=" Player"
+          <iframe class="player"
                   src="https://www.youtube.com/embed/7xluyKbZEvs?si=H_tyZCTvSwu9ykLu"
                   title="YouTube video player"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -74,11 +56,8 @@
           
           <p>
               Cook and serve food in a fast-paced kitchen where hungry monsters are waiting. 
-              ake orders, manage ingredients, and work together to keep up as the pressure builds and things start to get chaotic.    
-          <br>                   
-              The focus of this project was to simulate the team environment in games development. From the work done alone, to the work 
-              needed to be done with others.
-          <br>I  helped define the core mechanics as well as working to find any bugs and find their causes and fixes.
+              ake orders, manage ingredients, and work together to keep up as the pressure builds and things start to get chaotic.
+              <br> Inspired from the games ‘Overcooked’ and ‘PlateUp!’.
           </p>
 
           <ul class="bullets">
@@ -88,13 +67,17 @@
           </ul>
 
           <p class="tech">Unreal Engine · GitHub · Paint,</p>
+          
+          <div class="cta">
+              <a class="" rel="Projects" href="Projects.html"><i class="fa fa-spin fa-cog"></i> Learn More</a>
+          </div>
       </article>
 
           <article class="card">
               <h3>Unreal Engine – Merchant Troubles</h3>
               <p class="meta">Role: Gameplay Designer (Solo) · Focus: Gameplay Systems, implementation</p>
     
-                <iframe class=" Player"
+                <iframe class="player"
                       src="https://www.youtube.com/embed/7Zvei8-xprQ?si=2LNMla1d-gv8NR51"
                       title="YouTube video player"
                       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -103,11 +86,9 @@
                 </iframe>
     
               <p>
-                  This project explored the implantation of gameplay systems using both C++ and Blueprints in Unreal Engine.
-                  <br> I designed and implemented gameplay mechanics, using Blueprints for rapid iteration and C++ for more controlled
-                  and scalable functionality.
-                  <br> This allowed me to better connect design intent with technical execution, improving my ability to shape
-                  player experience through both design and implementation.
+                  You've lost your gold and goods, and as a merchant this is bad. Explore uncharted sky island in search of your
+                  loot, make your way around deadly traps and enemies.
+                  <br>Thrive, Survive. Regain your wealth.
               </p>
     
               <ul class="bullets">
@@ -117,6 +98,10 @@
               </ul>
     
               <p class="tech">Unreal Engine · Rider · C++ · Blueprints · GitHub</p>
+
+              <div class="cta">
+                  <a class="" rel="Projects" href="Projects.html"><i class="fa fa-spin fa-cog"></i> Learn More</a>
+              </div>
           </article>
   
 
@@ -124,7 +109,7 @@
           <h3>Unity – Aether Bound: Plasma Strike</h3>
           <p class="meta">Role: Gameplay Designer (Solo) · Platform: PC</p>
 
-          <iframe class=" Player"
+          <iframe class="player"
                   src="https://www.youtube.com/embed/tRxge7Di_fo?si=PZCqAZHDETIqkE7J"
                   title="YouTube video player"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -135,7 +120,6 @@
           <p>
               Explore the cities of the future, floating high above the ground as humanity tried to reach the mythical Aether. With recent advances 
               in the plasma field, this was believed to achievable. Until something went wrong.
-             <br> This project was an introduction to Unreal Engine and some of the things you can do with it. Such as Blueprinting, UI, and Niagara effects.
           </p>
 
           <ul class="bullets">
@@ -144,9 +128,15 @@
           </ul>
 
           <p class="tech">Unreal Engine · Microsoft OneDrive · </p>
+
+          <div class="cta">
+              <a class="" rel="Projects" href="Projects.html"><i class="fa fa-spin fa-cog"></i> Learn More</a>
+          </div>
       </article>
   </div>
 </section>
+
+<hr class="solid">
 
 <section id="skills" class="container">
   <div class="section-head">
@@ -167,32 +157,13 @@
 
   <div class="tools">
     <h3 class="tools-title">Tools</h3>
-    <p class="tools-list">Unity · Unreal · Visual Studio · Rider · GitHub</p>
-  </div>
-
-</section>
-
-
-<section id="contact" class="container">
-  <div class="section-head">
-    <h2>Contact</h2>
-  </div>
-
-  <p>
-    Email: <a href="mailto:tanevivaylo21@gmail.com">tanevivaylo21@gmail.com</a>
-  </p>
-
-  <p>
-    Phone number: +44 7708564188
-  </p>
-
-  <div class="links">
-    <a href="https://www.linkedin.com/in/ivaylo-tanev-bb2602356/" target="_blank">LinkedIn</a>
+    <p class="tools-list">Unity · Unreal · Visual Studio · Rider · GitHub · Microsoft Office</p>
   </div>
 </section>
 
+<hr class="solid">
 <footer>
-  <p> 2026 · Ivaylo Tanev · Game Design Portfolio</p>
+  <p class="List"> 2026 · Ivaylo Tanev · Game Design Portfolio</p>
 </footer>
 
 </body>

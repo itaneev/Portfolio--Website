@@ -7,6 +7,7 @@ body{
   line-height: 1.6;
   color: #111;
   background: #46b3ff;
+  padding: 20px;
 }
 
 .container{
@@ -24,19 +25,21 @@ h1{ font-size: 3rem; margin-bottom: 10px; letter-spacing: -0.02em; }
 
 .subtitle{
   font-size: 1.15rem;
-  color: #555;
+  color: #FFFFFF;
   margin-bottom: 18px;
 }
 
 .lead{
   max-width: 760px;
   margin: 0 auto 26px;
-  color: #333;
+  color: #ffffff;
 }
 
 .section-head{ margin-bottom: 28px; }
 h2{ font-size: 2rem; margin-bottom: 8px; }
-.section-subtitle{ color: #666; }
+.section-subtitle{ color: #ffffff; }
+.Languages-list{ color: #ffffff; }
+.List{ font-size: 1.5rem; color: #ffffff; }
 
 .cta{
   display: flex;
@@ -66,6 +69,7 @@ h2{ font-size: 2rem; margin-bottom: 8px; }
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
   gap: 22px;
+  padding: 24px;
 }
 
 .grid-2{
@@ -74,7 +78,7 @@ h2{ font-size: 2rem; margin-bottom: 8px; }
 
 .card{
   background: #ebebeb;
-  padding: 32px;
+  padding: 18px;
   border-radius: 18px;
   box-shadow: 0 15px 34px rgba(0,0,0,0.06);
 }
@@ -94,6 +98,7 @@ h2{ font-size: 2rem; margin-bottom: 8px; }
 }
 
 .links{
+  font-size: 1.5rem;
   display: flex;
   gap: 14px;
   margin-top: 12px;
@@ -113,7 +118,7 @@ a:hover{ text-decoration: underline; }
 }
 
 .tools-title{ margin-bottom: 6px; }
-.tools-list{ color: #333; }
+.tools-list{ color: #ffffff; }
 
 .steps{
   display: grid;
@@ -130,14 +135,25 @@ footer{
 
 .player{
     aspect-ratio: 16 / 9;
-    width: 200%;
+    width: 100%;
 }
+
+.image{
+  border-radius: 20%;
+}
+
+/* Solid border */
+hr.solid {
+  border-top: 5px solid #ffffff;
+}
+
+
 
 /* Nav Bar */
 
 .navbar {
   width: 100%;
-  background-color: #555;
+  background-color: #386d85;
   overflow: auto;
 }
 /* Navbar links */
@@ -155,7 +171,7 @@ footer{
 }
 /* Current/active navbar link */
 .active {
-  background-color: #04AA6D;
+  background-color: #245a80;
 }
 /* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
 @media screen and (max-width: 500px) {
@@ -163,4 +179,39 @@ footer{
     float: none;
     display: block;
   }
+}
+
+/* contact form style */
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 5px;
+
 }
